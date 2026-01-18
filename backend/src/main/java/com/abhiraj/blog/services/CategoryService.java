@@ -1,0 +1,10 @@
+package com.abhiraj.blog.services;
+
+import com.abhiraj.blog.domain.entities.Category;
+
+import java.util.List;
+
+public interface CategoryService {
+    List<Category> listCategories();
+    Category createCategory(Category category);
+}
